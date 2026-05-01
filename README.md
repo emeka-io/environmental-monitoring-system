@@ -21,7 +21,7 @@ This project is a real-time temperature and humidity dashboard designed to monit
 *   **Prototyping:** 830-point Breadboard & Jumper Wires
 
 ## Wiring photo
-![Prototype Wiring](assets/ph1_wiring.jpg)
+![Prototype Wiring](assets/ph1-wiring.jpeg)
 *Figure 2: Live dashboard showing temperature and humidity readings.*
 
 ---
