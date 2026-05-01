@@ -20,7 +20,6 @@ u8g2.firstPage();
 do {
   // Rendering logic here
 } while ( u8g2.nextPage() );
-*
 ```
 
 ## Components
