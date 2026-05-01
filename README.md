@@ -10,7 +10,7 @@ This project is a real-time temperature and humidity dashboard designed to monit
 
 ### Pre-Optimization Error
 ![Memory Error Screenshot](assets/low_memory.png)
-*The Arduino IDE warning showing critical memory usage before the fix.*
+*Figure 1: The Arduino IDE warning showing critical memory usage before the fix.*
 
 *   **Optimization:** The system was originally hitting a **92% RAM usage error** on the Arduino Uno due to full frame buffering. I successfully resolved this by switching to **Page Buffer Mode** (`u8g2.firstPage()`), significantly reducing the memory footprint.
 
@@ -21,8 +21,8 @@ This project is a real-time temperature and humidity dashboard designed to monit
 *   **Prototyping:** 830-point Breadboard & Jumper Wires
 
 ## Wiring photo
-![Prototype Wiring](IMG_4919.jpg)
-*Live dashboard showing temperature and humidity readings.*
+![Prototype Wiring](assets/ph1_wiring.jpg)
+*Figure 2: Live dashboard showing temperature and humidity readings.*
 
 ---
 *Next steps: Integrating RGB alerts and buzzer notifications (Phase 2).*
