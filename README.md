@@ -41,6 +41,4 @@ do {
 *   **`README.md`**: Project overview, technical optimizations, and setup instructions.
 
  ---
-*Built and documented by Chukwuemeka Ifeanyi | Mechatronics Engineering Student | May 2026*
-
-
+*Built and documented by Chukwuemeka Ifeanyi | Mechatronics Engineering Student | April 2026 | [@emekabuilds_](https://x.com/emekabuilds_)*
