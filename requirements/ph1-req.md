@@ -8,7 +8,7 @@ This document lists everything you need to successfully build and run the **Envi
 
 | Component | Purpose | Quantity |
 | :--- | :--- | :--- |
-| **Arduino Uno Rev3** | Main microcontroller to process sensor data and control the OLED. | 1 |
+| **Arduino Uno R3** | Main microcontroller to process sensor data and control the OLED. | 1 |
 | **DHT11 Sensor** | Measures ambient temperature and humidity levels. | 1 |
 | **1.3" OLED (SH1106)** | Visualizes the real-time environmental data using I2C. | 1 |
 | **830-Point Breadboard** | Used for prototyping and organizing component connections. | 1 |
