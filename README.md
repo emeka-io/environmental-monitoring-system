@@ -7,6 +7,11 @@ This project is a real-time temperature and humidity dashboard designed to monit
 ## The Build
 *   **Refresh Rate:** 2 seconds — specifically optimized to match the physical sampling limits of the DHT11 sensor.
 *   **Communication:** The 1.3" OLED utilizes the **I2C protocol** (SDA/SCL) for a clean, two-wire data interface.
+
+### Pre-Optimization Error
+![Memory Error Screenshot](assets/low_error.png)
+*The Arduino IDE warning showing critical memory usage before the fix.*
+
 *   **Optimization:** The system was originally hitting a **92% RAM usage error** on the Arduino Uno due to full frame buffering. I successfully resolved this by switching to **Page Buffer Mode** (`u8g2.firstPage()`), significantly reducing the memory footprint.
 
 ## Components
