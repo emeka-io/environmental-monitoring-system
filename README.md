@@ -1,6 +1,6 @@
 # Environmental Monitoring System (Phase 1)
 
-This project is a real-time temperature and humidity dashboard designed to monitor room environments. It utilizes a **DHT11 sensor** for data acquisition and a **1.3" OLED (SH1106)** for clear, live visualization.
+This is a temperature and humidity measurement system designed to monitor room environments. It utilizes a **DHT11 sensor** for data acquisition and a **1.3" OLED (SH1106)** for clear, live visualization.
 
 ---
 
