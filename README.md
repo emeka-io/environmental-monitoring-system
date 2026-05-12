@@ -41,7 +41,7 @@ To understand how the hardware and software layers interact, here is the high-le
 
 ![System Architecture Diagram](assets/SYSTEM_ARCHITECTURE_DIAGRAM.png)
 
-*Figure 4: Logic flow showing data acquisition, processing, and the conditional response modes.*
+*Figure 1: Logic flow showing data acquisition, processing, and the conditional response modes.*
 
 ---
 
@@ -86,7 +86,7 @@ This provides a clean two-wire communication interface between the Arduino and d
 
 ![Memory Error Screenshot](assets/low_memory.png)
 
-*Figure 1: Arduino IDE warning showing critical RAM usage before optimization.*
+*Figure 2: Arduino IDE warning showing critical RAM usage before optimization.*
 
 The original implementation caused:
 - **92% SRAM usage**
@@ -128,7 +128,7 @@ This significantly reduced SRAM usage and stabilized the system.
 
 ![Prototype Wiring](assets/ph1-wiring.jpeg)
 
-*Figure 2: Phase 1 prototype showing live environmental monitoring.*
+*Figure 3: Phase 1 prototype showing live environmental monitoring.*
 
 ---
 
@@ -150,7 +150,7 @@ This phase introduced:
 
 ![Prototype Wiring](assets/ph2-wiring.jpeg)
 
-*Figure 3: Final hardware assembly for Phase 2 showing the integrated DHT11, OLED(showing sensor data and System Status), and RGB module(glowing green; system OK).*  
+*Figure 4: Final hardware assembly for Phase 2 showing the integrated DHT11, OLED(showing sensor data and System Status), and RGB module(glowing green; system OK).*  
 
 ---
 
