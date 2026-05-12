@@ -39,7 +39,7 @@ When unsafe environmental conditions are detected, the system immediately activa
 
 # Development Phases
 
-# Phase 1 — Sensor Integration & OLED Visualization
+## Phase 1: Sensor Integration & OLED Visualization
 
 The goal of Phase 1 was to establish stable communication between the hardware components and build a reliable live monitoring dashboard.
 
