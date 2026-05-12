@@ -18,9 +18,9 @@
 
 // --- Safety Thresholds ---
 // Change these values to suit your specific environment!
-const float TEMP_HIGH = 31.0; 
+const float TEMP_HIGH = 27.50;  
 const float TEMP_LOW  = 15.0; 
-const float HUMID_HIGH = 85.0;
+const float HUMID_HIGH = 75.0;
 
 // --- Timing Variables (The secret to multitasking) ---
 unsigned long prevDHTMillis = 0;   // Stores the last time the sensor was read
