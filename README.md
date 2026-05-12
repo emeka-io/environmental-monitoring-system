@@ -283,7 +283,4 @@ The project evolved from a simple monitoring display into a responsive embedded 
 
 ## Author
 
-Built and documented by **Chukwuemeka Ifeanyi**  
-Mechatronics Engineering Student • May 2026
-
-[@emekabuilds_](https://x.com/emekabuilds_)
+*Built and documented by Chukwuemeka Ifeanyi | Mechatronics Engineering Student | May 2026 | [@emekabuilds_](https://x.com/emekabuilds_)*
