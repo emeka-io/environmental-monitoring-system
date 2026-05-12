@@ -187,9 +187,9 @@ This allows:
 
 ---
 
-# Technical Optimizations
+## Technical Optimizations
 
-# Non-Blocking Multitasking Using `millis()`
+### Non-Blocking Multitasking Using `millis()`
 
 The biggest challenge I faced in Phase 2 was handling multiple tasks simultaneously.
 
@@ -233,7 +233,7 @@ This creates smooth multitasking behaviour while keeping the system responsive a
 
 ---
 
-# Final System Architecture
+### Final System Architecture
 
 The final system combines:
 - Real-time sensing
@@ -247,7 +247,7 @@ The project evolved from a simple monitoring display into a responsive embedded 
 
 ---
 
-# Components
+### Components
 
 - **Arduino Uno Rev3**
 - **DHT11 Temperature & Humidity Sensor**
@@ -259,7 +259,7 @@ The project evolved from a simple monitoring display into a responsive embedded 
 
 ---
 
-# Repository Structure
+### Repository Structure
 
 | Folder | Description |
 |---|---|
@@ -270,7 +270,7 @@ The project evolved from a simple monitoring display into a responsive embedded 
 
 ---
 
-# Possible Future Improvements
+### Possible Future Improvements
 
 - Configurable threshold system
 - Wireless monitoring
@@ -281,7 +281,7 @@ The project evolved from a simple monitoring display into a responsive embedded 
 
 ---
 
-# Author
+## Author
 
 Built and documented by **Chukwuemeka Ifeanyi**  
 Mechatronics Engineering Student • May 2026
