@@ -2,6 +2,7 @@
  * AUTHOR: Chukwuemeka Ifeanyi (@emekabuilds_ on X)
  * DESCRIPTION: A multi-phase project that monitors temperature and humidity.
  * It features a live OLED dashboard and a non-blocking alarm system (RGB/Buzzer).
+ * I ensured the comments are explanatory to aid understanding.
  */
 
 #include <Arduino.h>
