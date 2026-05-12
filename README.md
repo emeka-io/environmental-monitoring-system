@@ -39,7 +39,7 @@ When unsafe environmental conditions are detected, the system immediately activa
 
 # Development Phases
 
-### Phase 1: Sensor Integration & OLED Visualization
+## Phase 1: Sensor Integration & OLED Visualization
 
 The goal of Phase 1 was to establish stable communication between the hardware components and build a reliable live monitoring dashboard.
 
@@ -52,18 +52,18 @@ This phase focused on:
 
 ---
 
-## Phase 1 Features
+### Phase 1 Features
 
-### Live Environmental Monitoring
+#### Live Environmental Monitoring
 The OLED continuously displays:
 - Temperature readings
 - Humidity readings
 
-### Optimized Refresh Timing
+#### Optimized Refresh Timing
 - **Refresh Rate:** 2 seconds  
 - Specifically tuned to match the physical sampling limitations of the DHT11 sensor.
 
-### I2C Communication
+#### I2C Communication
 The OLED communicates using:
 - **SDA**
 - **SCL**
@@ -72,9 +72,9 @@ This provides a clean two-wire communication interface between the Arduino and d
 
 ---
 
-## Phase 1 — Memory Optimization
+### Phase 1 Memory Optimization
 
-### Initial Problem
+#### Initial Problem
 
 ![Memory Error Screenshot](assets/low_memory.png)
 
@@ -88,13 +88,13 @@ The issue was caused by full-frame OLED buffering.
 
 ---
 
-### Solution — Page Buffer Rendering
+#### Solution — Page Buffer Rendering
 
 To reduce memory usage, the rendering architecture was redesigned using **Page Buffer Mode**.
 
 Instead of storing the entire display frame in memory, the OLED renders incrementally in smaller horizontal sections.
 
-### Source Code Snippet
+#### Source Code Snippet
 
 ```cpp
 u8g2.firstPage();
@@ -107,7 +107,7 @@ This significantly reduced SRAM usage and stabilized the system.
 
 ---
 
-## Phase 1 Components
+### Phase 1 Components
 
 - **Microcontroller:** Arduino Uno Rev3
 - **Display:** 1.3" OLED Display (SH1106 Driver)
@@ -116,7 +116,7 @@ This significantly reduced SRAM usage and stabilized the system.
 
 ---
 
-## Phase 1 Wiring
+### Phase 1 Wiring
 
 ![Prototype Wiring](assets/ph1-wiring.jpeg)
 
@@ -124,7 +124,7 @@ This significantly reduced SRAM usage and stabilized the system.
 
 ---
 
-# Phase 2: Responsive Environmental Safety System
+## Phase 2: Responsive Environmental Safety System
 
 In Phase 2, the project evolved beyond simply displaying numbers.
 
@@ -139,16 +139,16 @@ This phase introduced:
 
 ---
 
-## Phase 2 Features
+### Phase 2 Features
 
-## 1. Danger Alert System
+### 1. Danger Alert System
 
 The system was programmed to behave like a miniature environmental safety monitor.
 
-### Visual Alert Logic
+#### Visual Alert Logic
 I added an RGB module to the system.
 
-#### Safe Conditions
+##### Safe Conditions
 - RGB LED remains **Solid Green**
 - OLED displays system data and a **"SYSTEM STATUS: OK"** note.
 
