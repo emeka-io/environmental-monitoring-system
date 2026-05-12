@@ -139,7 +139,7 @@ This phase introduced:
 
 ---
 
-### Phase 2 Features
+## Phase 2 Features
 
 ### 1. Danger Alert System
 
@@ -148,7 +148,7 @@ The system was programmed to behave like a miniature environmental safety monito
 #### Visual Alert Logic
 I added an RGB module to the system.
 
-##### Safe Conditions
+#### Safe Conditions
 - RGB LED remains **Solid Green**
 - OLED displays system data and a **"SYSTEM STATUS: OK"** note.
 
@@ -172,7 +172,7 @@ I synchronized an **Active Buzzer** with the red warning RGB.
 
 ---
 
-## 2. Intelligent OLED Dashboard
+### 2. Intelligent OLED Dashboard
 
 Instead of replacing the display with a generic `"ERROR"` message, the dashboard remains fully informative during alerts by displaying text such as **"TEMP TOO HIGH!"**.
 
