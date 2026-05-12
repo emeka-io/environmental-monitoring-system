@@ -138,6 +138,13 @@ This phase introduced:
 - Audio and visual environmental warnings
 
 ---
+### Phase 2 Wiring
+
+![Prototype Wiring](assets/ph2-wiring.jpeg)
+
+*Figure 3: Final hardware assembly for Phase 2 showing the integrated DHT11, OLED(showing sensor data and System Status), and RGB module(glowing green; system OK).*  
+
+---
 
 ## Phase 2 Features
 
