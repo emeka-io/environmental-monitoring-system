@@ -35,6 +35,14 @@ When unsafe environmental conditions are detected, the system immediately activa
 - Audio alerts (Active Buzzer)
 - Real-time warning indicators on the OLED display
 
+## System Architecture
+
+To understand how the hardware and software layers interact, here is the high-level data flow and logic path of the system:
+
+![System Architecture Diagram](assets/SYSTEM_ARCHITECTURE_DIAGRAM.png)
+
+*Figure 4: Logic flow showing data acquisition, processing, and the conditional response modes.*
+
 ---
 
 # Development Phases
