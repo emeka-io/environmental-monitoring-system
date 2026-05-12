@@ -37,7 +37,7 @@ When unsafe environmental conditions are detected, the system immediately activa
 
 ---
 
-## Development Phases
+# Development Phases
 
 ### Phase 1: Sensor Integration & OLED Visualization
 
@@ -88,7 +88,7 @@ The issue was caused by full-frame OLED buffering.
 
 ---
 
-## Solution — Page Buffer Rendering
+### Solution — Page Buffer Rendering
 
 To reduce memory usage, the rendering architecture was redesigned using **Page Buffer Mode**.
 
@@ -124,7 +124,7 @@ This significantly reduced SRAM usage and stabilized the system.
 
 ---
 
-# Phase 2 — Responsive Environmental Safety System
+# Phase 2: Responsive Environmental Safety System
 
 In Phase 2, the project evolved beyond simply displaying numbers.
 
@@ -139,7 +139,7 @@ This phase introduced:
 
 ---
 
-# Phase 2 Features
+## Phase 2 Features
 
 ## 1. Danger Alert System
 
@@ -187,7 +187,7 @@ This allows:
 
 ---
 
-## Technical Optimizations
+## Phase 2 technical optimizations
 
 ### Non-Blocking Multitasking Using `millis()`
 
