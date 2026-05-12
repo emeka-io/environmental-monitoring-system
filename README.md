@@ -146,7 +146,7 @@ This phase introduced:
 The system was programmed to behave like a miniature environmental safety monitor.
 
 ### Visual Alert Logic
-An RGB module was added to the system.
+I added an RGB module to the system.
 
 #### Safe Conditions
 - RGB LED remains **Solid Green**
@@ -163,7 +163,7 @@ This creates a highly visible warning state.
 
 ### Audio Alert Logic
 
-An **Active Buzzer** was synchronized with the red warning LED.
+I synchronized an **Active Buzzer** with the red warning RGB.
 
 #### Alert Behaviour
 - Pulses every **150ms**
