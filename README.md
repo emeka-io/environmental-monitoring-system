@@ -11,7 +11,7 @@ This repository documents the complete engineering process, from hardware interf
 
 ---
 
-# Live Demo
+# Final Demo
 
 See the final results here:  
 [View Demo](https://x.com/emekabuilds_/status/2054897126849527817?s=46)
@@ -48,6 +48,11 @@ To understand how the hardware and software layers interact, here is the high-le
 # Development Phases
 
 ## Phase 1: Sensor Integration & OLED Visualization
+
+### Phase 1 Demo
+
+Watch the Phase 1 demo here:  
+[View Demo](https://x.com/emekabuilds_/status/2050583625188429927?s=46)
 
 The goal of Phase 1 was to establish stable communication between the hardware components and build a reliable live monitoring dashboard.
 
