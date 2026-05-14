@@ -14,7 +14,7 @@ This repository documents the complete engineering process, from hardware interf
 # Live Demo
 
 See the final results here:  
-[View Demo on X](https://x.com/emekabuilds_/status/2050583625188429927?s=46)
+[View Demo](https://x.com/emekabuilds_/status/2054897126849527817?s=46)
 
 ---
 
