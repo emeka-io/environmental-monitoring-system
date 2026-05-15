@@ -10,12 +10,9 @@ The project evolved progressively across two development phases:
 This repository documents the complete engineering process, from hardware interfacing and memory optimization to system multitasking and responsive embedded behaviour.
 
 ---
-
 # Final Demo
 
-See the final results here:  
-[View Demo](https://x.com/emekabuilds_/status/2054897126849527817?s=46)
-
+[Watch on YouTube](https://youtu.be/To-acHGzE-4) | [View on X](https://x.com/emekabuilds_/status/2054897126849527817?s=46)
 ---
 
 # System Overview
