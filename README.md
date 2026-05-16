@@ -100,7 +100,7 @@ This provides a clean two-wire communication interface between the Arduino and d
 
 *Figure 3: Arduino IDE warning showing critical RAM usage before optimization.*
 
-The original implementation caused:
+The initial firmware caused:
 - **92% SRAM usage**
 - System instability risks on the Arduino Uno
 
